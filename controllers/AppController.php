@@ -14,7 +14,6 @@ class AppController
         $router->render('login/index', [], 'layouts/login');
     }
 
-
     public static function login()
     {
         getHeadersApi();
